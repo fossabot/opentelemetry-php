@@ -1,7 +1,7 @@
 name: publish-otel-php-base-docker-image
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ 'docker-workflow' ]
   workflow_dispatch:
 jobs:
   push_to_registry:
