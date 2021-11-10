@@ -14,4 +14,6 @@ RUN apt install -y --no-install-recommends zlib1g-dev && \
     pecl install grpc && \
     docker-php-ext-enable grpc
 
+USER 1001
+
 WORKDIR /usr/src/myapp
